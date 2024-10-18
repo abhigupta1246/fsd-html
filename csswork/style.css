@@ -1,0 +1,58 @@
+body{
+    background-color: bisque;
+}
+/* div{
+    background-color: aqua;
+} */
+.container{
+    background-color:bisque;
+    height: 200px;
+    border: 2px solid red;
+}
+/* .child{
+    background-color: brown;
+    color: white;
+    height: 300px;
+    border: 2px solid blue;
+    width: 300px;
+    margin-left: 300px;
+    padding: 100px 50px 40px;
+    box-sizing: content-box;
+
+
+} */
+ /* div p{
+    background-color: yellow; } if space then decendent , if > then child of div , if + then every colour will vanished* */
+    .container{
+        background-color: cadetblue;
+        height: 400px;
+        width: 100%;
+        border: 2px solid red;
+        display: flex;
+        flex-direction:row;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+    .child1,.child2,.child3 { 
+        height: 200px;
+        border: 1px dotted blue;
+        width: 300px;
+        /* display: inline-block;
+        padding: 20px;
+        margin: 20px; */
+        
+    }
+    
+
+    .child1{
+        background-color: burlywood;
+
+    }
+    .child2 {
+        background-color: chocolate;
+        flex-basis: 50%;
+    }
+    .child3{
+        background-color: crimson;
+    }
+    
