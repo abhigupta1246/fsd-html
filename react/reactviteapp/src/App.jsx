@@ -1,6 +1,7 @@
 import React from 'react'
 import Student from './Student'
-import Statehandling from './statehandling'
+import Statehandling from './Statehandling'
+import ImageManipulation from './ImageManipulation'
 
 function App() {
   // const studentdata = [{
@@ -24,24 +25,27 @@ function App() {
   // }
   // ]
   return (
-    
-  //     <div>
-  //       <h2 style={{ color: 'red' }}>Hello react JS</h2>
-  //       <div>
+  
+      <div>
+        <h2 style={{ color: 'red' }}>Hello react JS</h2>
+        <div>
+          <ImageManipulation/>
 
-  //         {/* < Student image={<img src={'https://commondatastorage.googleapis.com/codeskulptor-demos/riceracer_assets/img/srixner.png'}height={100}width={100}/>} name="abhishek Gupta" roll="12345"college="ABES Engineering College"/>/* */}
-  //         {
+          </div>
+        
 
-  //           studentdata.map((ele) => {
-  //             return (
-  //               <Student data={ele} />
+          {/* < Student image={<img src={'https://commondatastorage.googleapis.com/codeskulptor-demos/riceracer_assets/img/srixner.png'}height={100}width={100}/>} name="abhishek Gupta" roll="12345"college="ABES Engineering College"/>
+         
 
-  //             )
-  //           })
-      //     }
-      //   </div>
-      // </div>
-      <Statehandling/>
+           studentdata.map((ele) => {
+               return (
+                 <Student data={ele} />
+
+               )
+             })
+       } */}
+     </div>
+
       )
 }
 export default App
